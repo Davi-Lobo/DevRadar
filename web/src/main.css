@@ -1,0 +1,10 @@
+main {
+    flex: 1;
+}
+
+main ul {
+    display: grid;
+    list-style: none;
+    column-gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+}

@@ -1,8 +1,5 @@
 # Node things
 node_modules/
 
-# Web APP
-/web
-
 # Yarn Things
 yarn.lock

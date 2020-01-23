@@ -1,0 +1,73 @@
+aside {
+    height: 100%;
+    width: 320px;
+    padding: 30px 20px;
+    border-radius: 2px;
+    background-color: #FFF;
+    box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.02);
+}
+
+aside strong {
+    color: #333;
+    display: block;
+    font-size: 20px;
+    text-align: center;
+}
+
+aside form {
+    margin-top: 30px;
+}
+
+aside form .input-block + .input-block {
+    margin-top: 20px;
+}
+
+aside form .input-group {
+    gap: 20px;
+    display: grid;
+    margin-top: 20px;
+    grid-template-columns: 1fr 1fr;
+}
+
+aside form .input-group .input-block {
+    margin-top: 0;
+}
+
+aside form .input-block label {
+    display: block;
+    font-size: 14px;
+    color: #ACACAC;
+    font-weight: 700;
+}
+
+aside form .input-block input {
+    border: 0;
+    width: 100%;
+    color: #666;
+    height: 32px;
+    font-size: 14px;
+    transition: border-color 0.2s;
+    border-bottom: 1px solid #eee;
+}
+
+aside form .input-block input:focus {
+    border-color: #7d40e7;
+}
+
+aside form button[type="submit"] {
+    border: 0;
+    width: 100%;
+    color: #FFF;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 700;
+    margin-top: 30px;
+    border-radius: 2px;
+    padding: 15px 20px;
+    background-color: #7d40e7;
+    transition: background-color 0.5s;
+}
+
+aside form button[type="submit"]:hover {
+    background-color: #6931ca;
+}
